@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Badminton School - Shop</string>
+    <!--Tab Names-->
+    <string name="tab_shop">Shop</string>
+    <string name="tab_sales">Sales</string>
+    <string name="tab_news">News</string>
+    <string name="tab_contact">Contact</string>
+    <string name="tab_about_us">About us</string>
+    <string name="tab_settings">Settings</string>>
+    <!--Contact-->
+    <string name="contact_statement">Via the form below you can text us. Provide the required data and we will answer as soon as possible.</string>
+    <string name="contact_your_name">Your name</string>
+    <string name="contact_your_email_address">Your email address</string>
+    <string name="contact_email_subject">Email subject</string>
+    <string name="contact_email_message">Message</string>
+    <string name="contact_error_no_email_address">You have not fill an email address</string>
+    <string name="contact_error_no_name">You have not fill your name</string>
+    <string name="contact_invalid_email_address_format">Invalid email address format</string>
+    <string name="contact_error_no_email_subject">You have not fill an email subject</string>
+    <string name="contact_error_email_subject_too_long">The subject is too long</string>
+    <string name="contact_error_no_email_message">You have not fill an email message</string>
+    <string name="contact_error_email_message_too_long">The message is too long</string>
+    <string name="contact_email_sent_successful">Email has been sent</string>
+    <string name="contact_char_counter">Number of characters</string>
+    <string name="contact_send_button">Send</string>
+    <!--About us-->
+    <string name="about_us_paragraph1" translatable="false">Szkoła Badmintona powstała w 2012 roku za sprawą młodych pasjonatów najszybszego rakietowego sportu na świecie, wcześniejszych profesjonalnych zawodników i reprezentantów Kadry Polski, którzy oprócz wieloletniego doświadczenia w reprezentacji różnych kategorii wiekowych zdobywali medale Mistrzostw Polski oraz medale na krajowych, a także międzynarodowych turniejach Europy.</string>
+    <string name="about_us_paragraph2" translatable="false">Od początku istnienia, misją Szkoły Badmintona jest maksymalny rozwój i popularyzacja badmintona w miastach oraz szkołach województwa pomorskiego jak również promocja na terenie całego kraju. Szkoła Badmintona systematycznie organizuje eventy sportowe m.in. turnieje i ligi, pokazy gry, oraz obozy sportowe, których celem jest zapoznanie najmłodszych adeptów z najszybszą olimpijską dyscypliną sportu, jaką jest badminton.</string>
+    <string name="about_us_paragraph3" translatable="false">Dzięki wieloletniemu doświadczeniu i zaangażowaniu całego zespołu w rozwijane projekty Szkoły Badmintona, zdecydowaliśmy się na kolejny krok w postaci uruchomienia sklepu internetowego dysponującego wyłącznie profesjonalnym sprzętem do badmintona. Codziennie doradzamy naszym zawodnikom w doborze optymalnego sprzętu m.in. obuwia, rakiet, naciągów, jak również lotek i odzieży. W związku z tym od 10 sierpnia 2017 r. rozpoczęliśmy oficjalną sprzedaż i dystrybucję sprzętu do badmintona w środowisku graczy profesjonalnych, a także zawodników początkujących.</string>
+    <string name="about_us_paragraph4" translatable="false">Gwarantujemy, że proponowany przez nas sprzęt to najwyższej jakości produkty, których sami używamy prywatnie do gry i w treningu. Dysponujemy sprzętem najbardziej popularnych marek w badmintonie, których jakość znamy dzięki kilkunastoletniemu doświadczeniu zdobytemu w badmintonie wyczynowym. Naszym głównym celem jest profesjonalna pomoc i doradztwo w doborze optymalnego sprzętu dla zawodników początkujących, amatorów o różnym poziomie zaawansowania oraz graczy wyczynowych.</string>
+    <string name="about_us_paragraph5" translatable="false">Jednocześnie informujemy, iż Szkoła Badmintona jest w Polsce jedynym, oficjalnym dystrybutorem malezyjskiej marki YOUNG oraz YANG YANG będącej numerem 1 w swoim kraju. Zawodnicy, kluby, centra rakietowe, firmy i inne sklepy sportowe zainteresowane współpracą z nami proszone są o kontakt mailowy, bądź telefoniczny.</string>
+    <string name="about_us_paragraph6" translatable="false">Jesteśmy do Waszej dyspozycji w godzinach:</string>
+    <string name="about_us_paragraph7" translatable="false">Poniedziałek - Piątek</string>
+    <string name="about_us_paragraph8" translatable="false">9:00 - 17:00</string>
+    <string name="about_us_paragraph9" translatable="false">Sobota</string>
+    <string name="about_us_paragraph10" translatable="false">10:00 - 14:00</string>
+    <string name="about_us_paragraph11" translatable="false">KONTAKT</string>
+    <string name="about_us_paragraph12" translatable="false">Magazyn:</string>
+    <string name="about_us_paragraph13" translatable="false">Telefon: +48 530 061 492</string>
+    <string name="about_us_paragraph14" translatable="false">E-mail: sklep@szkolabadmintona.pl</string>
+    <string name="about_us_paragraph15" translatable="false">Biuro:</string>
+    <string name="about_us_paragraph16" translatable="false">Telefon: +48 606 987 835</string>
+    <string name="about_us_paragraph17" translatable="false">E-mail: sklep@szkolabadmintona.pl</string>
+    <string name="about_us_paragraph18" translatable="false">DANE FIRMY</string>
+    <string name="about_us_paragraph19" translatable="false">Mateusz Dynak - Szkoła Badmintona</string>
+    <string name="about_us_paragraph20" translatable="false">ul. Mochnackiego 7/36, 76-200 Słupsk</string>
+    <string name="about_us_paragraph21" translatable="false">NIP 839-305-48-81</string>
+    <string name="about_us_paragraph22" translatable="false">REGON 367-937-679</string>
+    <string name="about_us_paragraph23" translatable="false">RACHUNEK BANKOWY</string>
+    <string name="about_us_paragraph24" translatable="false">ING Bank Śląski</string>
+    <string name="about_us_paragraph25" translatable="false">34 1050 1764 1000 0092 4511 0474</string>
+    <string name="about_us_paragraph26" translatable="false">Kod SWIFT: INGBPLPW</string>
+    <string name="about_us_paragraph27" translatable="false">Kod IBAN: PL34 1050 1764 1000 0092 4511 0474</string>
+
+    <!--Settings-->
+    <string name="settings_version">Version</string>
+    <string name="settings_authorLabel">Author</string>
+    <string name="settings_settings_are_saved">The settings are saved.</string>
+    <string name="settings_close">Close</string>
+    <string name="settings_contact_with_author">Contact with programmer: </string>
+    <string name="settings_author_name" translatable="false">Mateusz Hermanowicz</string>
+    <string name="settings_author_website" translatable="false">https://www.mypantry.eu/kontakt/</string>
+</resources>

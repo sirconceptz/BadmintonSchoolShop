@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044206750564",
+    "firebase_url": "https://szkola-badmintona.firebaseio.com",
+    "project_id": "szkola-badmintona",
+    "storage_bucket": "szkola-badmintona.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044206750564:android:ba010ad255401c3d764871",
+        "android_client_info": {
+          "package_name": "com.hermanowicz.badmintonschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044206750564-rj78ft6tbf0dns1i1urj0cp8dj8k93gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOU5L3dq81pnJhhdH_7FNz2_PbeUmyvRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044206750564-rj78ft6tbf0dns1i1urj0cp8dj8k93gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

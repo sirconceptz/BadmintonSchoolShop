@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Szkoła Badmintona - Sklep</string>
+    <!--Nazwy zakładek-->
+    <string name="tab_shop">Sklep</string>
+    <string name="tab_sales">Promocje</string>
+    <string name="tab_news">Aktualności</string>
+    <string name="tab_contact">Kontakt</string>
+    <string name="tab_about_us">O nas</string>
+    <string name="tab_settings">Ustawienia</string>
+    <!--Kontakt-->
+    <string name="contact_statement">Za pośrednictwem poniższego formularza możesz skontaktować się z nami. Podaj proszę wymagane dane, a my odpowiemy najszybciej jak to możliwe.</string>
+    <string name="contact_your_name">Twoje imię</string>
+    <string name="contact_your_email_address">Twój adres email</string>
+    <string name="contact_email_subject">Temat wiadomości</string>
+    <string name="contact_email_message">Treść wiadomości</string>
+    <string name="contact_error_no_email_address">Nie podałeś adresu email</string>
+    <string name="contact_invalid_email_address_format">Niepoprawny format adresu email</string>
+    <string name="contact_error_no_name">Nie podałeś swojego imienia</string>
+    <string name="contact_error_no_email_subject">Nie podałeś tematu wiadomości</string>
+    <string name="contact_error_email_subject_too_long">Temat wiadomości jest zbyt długi</string>
+    <string name="contact_error_no_email_message">Nie podałeś treści wiadomości</string>
+    <string name="contact_error_email_message_too_long">Wiadomość email jest zbyt długa</string>
+    <string name="contact_email_sent_successful">Wiadomość e-mail została wysłana</string>
+    <string name="contact_char_counter">Ilość znaków</string>
+    <string name="contact_send_button">Wyślij</string>
+    <!--Ustawienia-->
+    <string name="settings_version">Wersja</string>
+    <string name="settings_authorLabel">Autor</string>
+    <string name="settings_settings_are_saved">Ustawienia zostały zapisane.</string>
+    <string name="settings_close">Zamknij</string>
+    <string name="settings_contact_with_author">Kontakt z programistą: </string>
+</resources>

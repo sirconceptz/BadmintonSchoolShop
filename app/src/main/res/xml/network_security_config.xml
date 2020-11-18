@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">lukaszkomar.vxm.pl</domain>
+        <domain includeSubdomains="true">szkolabadmintona.pl</domain>
+    </domain-config>
+</network-security-config>
