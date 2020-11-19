@@ -19,6 +19,12 @@ public class SplashScreenActivity extends AppCompatActivity {
         delayAndGoToMainActivity();
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        goToMainActivity();
+    }
+
     private void initView() {
         setContentView(R.layout.activity_splash_screen);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -29,9 +35,12 @@ public class SplashScreenActivity extends AppCompatActivity {
         logo.animate().translationY(80).setDuration(1800);
     }
 
+    private void goToMainActivity() {
+        Intent i = new Intent(SplashScreenActivity.this, MainActivity.class); startActivity(i);
+        finish();
+    }
+
     private void delayAndGoToMainActivity() {
-        new Handler().postDelayed(() -> {
-            Intent i = new Intent(SplashScreenActivity.this, MainActivity.class); startActivity(i);
-            finish(); }, 1800);
+        new Handler().postDelayed(() -> goToMainActivity(), 1800);
     }
 }

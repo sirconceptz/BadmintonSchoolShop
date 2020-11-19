@@ -18,9 +18,6 @@ public class SettingsFragment extends Fragment {
 
     private TextView version, author;
 
-    public SettingsFragment() {
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

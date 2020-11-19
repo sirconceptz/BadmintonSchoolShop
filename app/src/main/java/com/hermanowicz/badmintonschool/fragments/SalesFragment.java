@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import com.hermanowicz.badmintonschool.R;
 
@@ -38,5 +39,6 @@ public class SalesFragment extends Fragment {
     private void setView() {
         webview.getSettings().setBuiltInZoomControls(true);
         webview.loadUrl("http://lukaszkomar.vxm.pl/mobile_app/?page_id=14");
+        webview.setWebViewClient(new WebViewClient());
     }
 }
