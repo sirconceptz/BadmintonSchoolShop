@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import com.hermanowicz.badmintonschool.R;
 import com.hermanowicz.badmintonschool.interfaces.KeyEventListener;
@@ -17,6 +18,7 @@ import com.hermanowicz.badmintonschool.interfaces.KeyEventListener;
 public class SalesFragment extends Fragment implements KeyEventListener {
 
     private WebView webview;
+    private long pressedTime;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,8 +51,12 @@ public class SalesFragment extends Fragment implements KeyEventListener {
     public boolean onKeyDown(int keyCode, KeyEvent keyEvent) {
         if (webview.canGoBack())
             webview.goBack();
-        else
+        else if (pressedTime + 2000 > System.currentTimeMillis()) {
             getActivity().finish();
+        } else {
+            Toast.makeText(getContext(), getString(R.string.navigation_press_back_agait_to_exit), Toast.LENGTH_SHORT).show();
+        }
+        pressedTime = System.currentTimeMillis();
         return false;
     }
 }

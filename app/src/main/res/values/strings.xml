@@ -51,7 +51,6 @@
     <string name="about_us_paragraph25" translatable="false">34 1050 1764 1000 0092 4511 0474</string>
     <string name="about_us_paragraph26" translatable="false">Kod SWIFT: INGBPLPW</string>
     <string name="about_us_paragraph27" translatable="false">Kod IBAN: PL34 1050 1764 1000 0092 4511 0474</string>
-
     <!--Settings-->
     <string name="settings_version">Version</string>
     <string name="settings_authorLabel">Author</string>
@@ -60,4 +59,6 @@
     <string name="settings_contact_with_author">Contact with programmer: </string>
     <string name="settings_author_name" translatable="false">Mateusz Hermanowicz</string>
     <string name="settings_author_website" translatable="false">https://www.mypantry.eu/kontakt/</string>
+    <!--Nawigacja-->
+    <string name="navigation_press_back_agait_to_exit">Press back again to exit</string>
 </resources>

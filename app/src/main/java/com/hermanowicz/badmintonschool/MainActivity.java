@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     final private Fragment settingsFragment = new SettingsFragment();
     final private FragmentManager fragmentManager = getSupportFragmentManager();
 
-    private Fragment currentFragment = newsFragment;
+    private Fragment currentFragment;
     private BottomNavigationView bottomNavView;
 
     @Override
@@ -39,18 +39,12 @@ public class MainActivity extends AppCompatActivity {
         setActionBar();
         setFragmentManager();
         setListeners();
+        setCurrentFragment(newsFragment);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        fragmentManager.beginTransaction()
-                .hide(newsFragment)
-                .hide(contactFragment)
-                .hide(shopFragment)
-                .hide(aboutUsFragment)
-                .hide(salesFragment)
-                .show(settingsFragment)
-                .commit();
+        setCurrentFragment(settingsFragment);
             return true;
     }
 
@@ -84,11 +78,6 @@ public class MainActivity extends AppCompatActivity {
                 .add(R.id.fragmentContainer, aboutUsFragment)
                 .add(R.id.fragmentContainer, settingsFragment)
                 .add(R.id.fragmentContainer, salesFragment)
-                .hide(salesFragment)
-                .hide(shopFragment)
-                .hide(contactFragment)
-                .hide(aboutUsFragment)
-                .hide(settingsFragment)
                 .commit();
     }
 

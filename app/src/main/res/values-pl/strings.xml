@@ -30,4 +30,6 @@
     <string name="settings_settings_are_saved">Ustawienia zostały zapisane.</string>
     <string name="settings_close">Zamknij</string>
     <string name="settings_contact_with_author">Kontakt z programistą: </string>
+    <!--Nawigacja-->
+    <string name="navigation_press_back_agait_to_exit">Wciśnij cofnij ponownie, aby wyjść</string>
 </resources>
